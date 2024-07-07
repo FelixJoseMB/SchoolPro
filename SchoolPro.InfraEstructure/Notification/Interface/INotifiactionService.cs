@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolPro.Common.Data.Base
+namespace SchoolPro.InfraEstructure.Notification.Interface
 {
-    public abstract class BaseEntity<Ttype>
+    public interface INotifiactionService
     {
-        public abstract Ttype Id { get; set; }
-
     }
 }

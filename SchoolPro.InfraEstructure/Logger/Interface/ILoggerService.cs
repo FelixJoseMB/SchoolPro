@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SchoolPro.Common.Data.Base
+namespace SchoolPro.InfraEstructure.Logger.Interface
 {
-    public abstract class BaseEntity<Ttype>
+    public interface ILoggerService
     {
-        public abstract Ttype Id { get; set; }
-
     }
 }
