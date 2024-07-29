@@ -17,5 +17,6 @@ namespace SchoolPro.Common.Data.Repository
         List<Tentity> GetAll();
         Tentity GetEntityBy(Ttype id);
         bool Exists(Expression<Func<Tentity, bool>> Filter);
+
     }
 }

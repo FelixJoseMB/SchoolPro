@@ -1,34 +1,37 @@
 ﻿
 
-//namespace BiblioMonolitica.web.BLogin
-//{
-//    public class PrestamoValidations
-//    {
+using SchoolPro.Prestamo.Application.BLogin.EstadoPrestamo;
+using SchoolPro.Prestamo.Application.BLogin.Models;
 
-//        public static void Validar(CreatePrestamosModel createPrestamosModel)
-//        {
-//            if (createPrestamosModel is null)
-//                throw new PrestamosServiceExeption("Este campo no puede ser nulo");
+namespace BiblioMonolitica.web.BLogin
+{
+    public class PrestamoValidations
+    {
 
-
-//            if (createPrestamosModel.Descripcion.Length > 50)
-//                throw new PrestamosServiceExeption("La descripcion de este prestamo no puede exceder 50 caracteres");
-
-
-//        }
-//        public static void Validar(DeletePrestamosModel deletePrestamosModel)
-//        {
-//            if (deletePrestamosModel is null)
-//                throw new PrestamosServiceExeption("El usuario no puede ser nulo");
+        public static void Validar(CreatePrestamosModel createPrestamosModel)
+        {
+            if (createPrestamosModel is null)
+                throw new PrestamosServiceExeption("Este campo no puede ser nulo");
 
 
-//        }
-//        public static void Validar(Update updatePrestamomodel)
-//        {
-//            if (updatePrestamomodel.Descripcion.Length > 50)
-//                throw new PrestamosServiceExeption("La descripcion de este prestamo no puede exceder 50 caracteres  ");
-//        }
-//    }
-//}
+            if (createPrestamosModel.Descripcion.Length > 50)
+                throw new PrestamosServiceExeption("La descripcion de este prestamo no puede exceder 50 caracteres");
+
+
+        }
+        public static void Validar(DeletePrestamosModel deletePrestamosModel)
+        {
+            if (deletePrestamosModel is null)
+                throw new PrestamosServiceExeption("El usuario no puede ser nulo");
+
+
+        }
+        public static void Validar(UpdatePrestamomodel updatePrestamomodel)
+        {
+            if (updatePrestamomodel.Descripcion.Length > 50)
+                throw new PrestamosServiceExeption("La descripcion de este prestamo no puede exceder 50 caracteres  ");
+        }
+    }
+}
     
 

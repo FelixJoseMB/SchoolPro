@@ -1,4 +1,4 @@
-﻿namespace BiblioMonolitica.web.BLogin.Dtos
+﻿namespace SchoolPro.Prestamo.Application.BLogin.Dtos
 {
     public record PrestamoDtoAdd
     {

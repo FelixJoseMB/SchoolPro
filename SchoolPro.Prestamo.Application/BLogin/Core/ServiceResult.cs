@@ -1,6 +1,6 @@
 ﻿
 
-namespace BiblioMonolitica.web.BLogin.Core
+namespace SchoolPro.Prestamo.Application.BLogin.Core
 {
     public class ServiceResult
     {

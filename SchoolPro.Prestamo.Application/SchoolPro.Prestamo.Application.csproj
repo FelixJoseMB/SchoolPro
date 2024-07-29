@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolPro.Common.Data\SchoolPro.Common.Data.csproj" />
+    <ProjectReference Include="..\SchoolPro.Prestamo.Persistence\SchoolPro.Prestamo.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+  </ItemGroup>
+
 </Project>

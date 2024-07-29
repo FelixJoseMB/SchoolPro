@@ -7,11 +7,11 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace SchoolPro.Prestamo.Domain.Entities
+{ 
+    public class Prestamo : AuditEntity<int>
+
 {
-    public  class Prestamo : AuditEntity<int>
-            
-    {
-        [Column("IdPrestamo")]
-        public override short Id { get; set; }
-    }
+    [Column("IdPrestamo")]
+    public override int Id { get; set; }
+}
 }

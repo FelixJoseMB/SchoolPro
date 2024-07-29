@@ -1,8 +1,8 @@
-﻿namespace BiblioMonolitica.web.Data.Models
+﻿namespace SchoolPro.Prestamo.Application.BLogin.Models
 {
     public abstract class PrestamoBaseModel : ModelBasePrestamo
     {
-        public required string Descripcion { get; set; }
+        public string Descripcion { get; set; }
         public bool? Estado { get; set; }
     }
 }
