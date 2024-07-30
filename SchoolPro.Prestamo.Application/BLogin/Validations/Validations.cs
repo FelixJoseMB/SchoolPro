@@ -3,7 +3,7 @@
 using SchoolPro.Prestamo.Application.BLogin.EstadoPrestamo;
 using SchoolPro.Prestamo.Application.BLogin.Models;
 
-namespace BiblioMonolitica.web.BLogin
+namespace SchoolPro.Prestamo.Application.BLogin
 {
     public class PrestamoValidations
     {

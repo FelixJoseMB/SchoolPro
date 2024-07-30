@@ -8,7 +8,7 @@ using SchoolPro.Prestamo.Application.BLogin.Models;
 using SchoolPro.Prestamo.Domain.Entities;
 using SchoolPro.Prestamo.Domain.Interface;
 
-namespace BiblioMonolitica.web.BLogin.Service
+namespace SchoolPro.Prestamo.Application.BLogin.Service
 {
     public class PrestamoService
     {
